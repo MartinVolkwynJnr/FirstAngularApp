@@ -1,0 +1,7 @@
+<h2>My Heroes</h2>
+<h1>My Fav hero = {{heroes[0].name}}</h1>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+  </li>
+</ul>
