@@ -79,3 +79,11 @@ You refactored a tightly-coupled master/detail view into a routed detail view.
 You used router link parameters to navigate to the detail view of a user-selected hero.
 You shared the HeroService among multiple components.
 
+### --Get Data From a server--
+
+You added the necessary dependencies to use HTTP in the app.
+You refactored HeroService to load heroes from a web API.
+You extended HeroService to support post(), put(), and delete() methods.
+You updated the components to allow adding, editing, and deleting of heroes.
+You configured an in-memory web API.
+You learned how to use observables.
