@@ -30,14 +30,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Summary what is used and learned...
 
-<!-- 
 
---Create Project--
+### --Create Project--
 You created the initial application structure using the Angular CLI.
 You learned that Angular components display data.
 You used the double curly braces of interpolation to display the application title.
 
---The Hero Editor--
+### --The Hero Editor--
 You used the CLI to create a second HeroesComponent.
 You displayed the HeroesComponent by adding it to the AppComponent shell.
 You applied the UppercasePipe to format the name.
@@ -46,19 +45,19 @@ You learned about the AppModule.
 You imported the FormsModule in the AppModule so that Angular would recognize and apply the ngModel directive.
 You learned the importance of declaring components in the AppModule and appreciated that the CLI declared it for you.
 
---Display a list--
+### --Display a list--
 The Tour of Heroes application displays a list of heroes with a detail view.
 The user can select a hero and see that hero's details.
 You used *ngFor to display a list.
 You used *ngIf to conditionally include or exclude a block of HTML.
 You can toggle a CSS style class with a class binding.
 
---Create a feature--
+### --Create a feature--
 You created a separate, reusable HeroDetailComponent.
 You used a property binding to give the parent HeroesComponent control over the child HeroDetailComponent.
 You used the @Input decorator to make the hero property available for binding by the external HeroesComponent.
 
---Add Service--
+### --Add Service--
 You refactored data access to the HeroService class.
 You registered the HeroService as the provider of its service at the root level so that it can be injected anywhere in the application.
 You used Angular Dependency Injection to inject it into a component.
@@ -70,7 +69,7 @@ You created a MessageService for loosely-coupled communication between classes.
 The HeroService injected into a component is created with another injected service, MessageService.
 
 
---Add Navigation--
+### --Add Navigation--
 You added the Angular router to navigate among different components.
 You turned the AppComponent into a navigation shell with <a> links and a <router-outlet>.
 You configured the router in an AppRoutingModule
@@ -79,4 +78,4 @@ You used the routerLink directive in anchor elements.
 You refactored a tightly-coupled master/detail view into a routed detail view.
 You used router link parameters to navigate to the detail view of a user-selected hero.
 You shared the HeroService among multiple components.
- -->
+
